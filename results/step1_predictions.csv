@@ -1,0 +1,353 @@
+id,asr_text,agent_reply,is_correct,reason,must_include,must_not_include,gold_evidence
+PQ0002,so sku ele-zero zero one to pe zentromart assured hai kya claim kaise karein,"Hello! Main ZentroMart ka AI assistant hoon. 
+
+Aapke SKU (ele-001) par ""ZentroMart Assured"" tag ke baare mein poochne ke liye shukriya. 
+
+Filhal mere paas hamare internal database aur specific product policies ka direct access nahi hai, isliye main exact status confirm nahi kar paa raha hoon ki is particular SKU par ZentroMart Assured applicable hai ya nahi. 
+
+Aap ise check karne ke liye ye steps follow kar sakte hain:
+1. **Product Page Check Karein:** Us product ke page par ""ZentroMart Assured"" ka logo ya badge dhoondhein. Agar wahan hai, toh yeh assured item hai.
+2. **Claim Kaise Karein:** Agar product mein koi issue hai aur aapko warranty ya replacement ka claim karna hai, toh aap apne ZentroMart account mein jaakar **""My Orders""** section se return/",False,Missing required fact group: '12',12 ; My Orders / app,,WAR-2 ; products.csv:ELE-0012
+PQ0003,how fast are refunds to the zentromart wallet,"Hello! I am ZentroMart's AI assistant. 
+
+Refunds to the ZentroMart wallet are usually processed very quickly—typically within **24 hours** after your return request has been approved and the item has been picked up or inspected. 
+
+Once the funds are credited to your ZentroMart wallet, you can use them instantly for your next purchase across groceries, fashion, or electronics on our store! Let me know if you need help with anything else.",True,Passed,instant / 2 hours / two hours / तुरंत / turant,5 to 7 days ; 5-7 days,REF-2 ; KB-00.1
+PQ0004,uh can i schedule a delivery at midnight,"Hello! I am ZentroMart's AI assistant. 
+
+Currently, we don't support exact midnight delivery scheduling, as our delivery hours typically run during standard daytime and evening hours (usually up to 9 or 10 PM, depending on your location). 
+
+However, you can check the available delivery time slots at checkout when placing your order to see the latest available slot for your area! Let me know if you need help with anything else.",False,Missing required fact group: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी',don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी,,
+PQ0005,uh sku ele-zero zero zero to pe zentromart assured hai kya claim kaise karein,"Hello! Main ZentroMart ka AI assistant hoon. 
+
+Aapke SKU `ele-0002` par ""ZentroMart Assured"" tag ke baare mein poochne ke liye shukriya. 
+
+Filhal mere paas hamare internal databases aur specific product policies ka direct access nahi hai, isliye main ye confirm nahi kar sakta ki is particular SKU par ZentroMart Assured tag hai ya nahi. Aap ise check karne ke liye product page par jaakar ""ZentroMart Assured"" ka icon dekh sakte hain.
+
+Agar us product par ZentroMart Assured tag hai aur aapko koi claim ya return karna hai, toh aam taur par aap in steps ko follow kar sakte hain:
+1. Apne **ZentroMart account** mein login karein.
+2. **""My Orders""** section mein jaayein.
+3. Us order ko select karein aur **""Return/Replace""",False,Missing required fact group: '12',12 ; My Orders / app,,WAR-2 ; products.csv:ELE-0002
+PQ0006,uh as a zentromart plus member will i be charged the pickup fee for returning shoes i just dont like,"Hello! I am ZentroMart's AI assistant. 
+
+As a ZentroMart Plus member, you generally enjoy priority shipping and free returns on most eligible items like fashion and apparel, even if you simply don't like them. 
+
+However, because I don't currently have access to our live order databases or specific membership policy documents, I'd recommend checking the return portal when initiating the return, as it will automatically apply your Plus member benefits and show you if any pickup fee is waived. 
+
+Let me know if you need help with anything else!",True,Passed,no / not / waived / free,₹49 will be charged,RET-6 ; PLS-2
+PQ0008,so credit card wala refund 17 october two zero two six ko shuru hua kab tak aa jaana chahiye,"Hello! I am ZentroMart's AI assistant. 
+
+Aapka refund agar 17 October 2026 ko initiate ho gaya hai, toh standard banking timelines ke hisab se credit card mein reflect hone mein aam taur par **5 se 7 working days** (saturday, sunday aur bank holidays ko chhod kar) lagte hain. 
+
+Iske mutabiq, aapka refund aane ki ummeed lagbhag **25 to 27 October 2026** tak ho sakti hai. 
+
+Agar tab tak amount aapke account mein na aaye, toh kripya apne bank se contact karein kyunki kai baar banks ko transaction process karne mein thoda extra time lag jata hai. 
+
+Let me know agar aapko kuch aur poonchh-na ho!",True,Passed,2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0009,uh is there a student discount,"Hello! I am ZentroMart's AI assistant. 
+
+As of now, we don't have a standard, ongoing student discount program running across all categories (groceries, fashion, and electronics) at ZentroMart. However, we frequently run seasonal sales, festive offers, and bank discounts that anyone can use to save extra! 
+
+Keep an eye on our homepage banner for the latest deals. Let me know if you need help finding anything else!",True,Passed,don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी,,
+PQ0010,is the free if the urbanthread slim fit jeans came torn,"Hello! I am ZentroMart's AI assistant. 
+
+Yes, absolutely! If your UrbanThread slim fit jeans arrived torn or damaged, you are eligible for a free return or replacement. 
+
+Since I don't have direct access to your order history right now, please initiate a return or exchange request through the 'My Orders' section on our app or website, or share your issue with our customer support team so we can get this sorted out for you right away!",True,Passed,free / no fee / waived / no charge,,RET-6 ; DWM-2
+PQ0013,मैंने Gulmohar Matte Lipstick खोल लिया है क्या अब भी वापस कर सकती हूँ,"नमस्ते! मैं ZentroMart का AI असिस्टेंट हूँ। 
+
+आपकी जानकारी के लिए बता दूं कि आमतौर पर ब्यूटी और पर्सनल केयर प्रोडक्ट्स (जैसे लिपस्टिक) यदि एक बार खोल लिए जाएं या इस्तेमाल कर लिए जाएं, तो हाइजीन और सुरक्षा कारणों से उन्हें वापस करना मुश्किल होता है। 
+
+चूंकि अभी मेरे पास सीधे हमारे इंटरनल ऑर्डर डेटाबेस और रिटर्न पॉलिसी के दस्तावेज़ उपलब्ध नहीं हैं, इसलिए मैं आपको यह सलाह दूंगा कि कृपया अपने ऑर्डर पेज पर जाकर ZentroMart की रिटर्न पॉलिसी की जाँच करें या हमारे कस्टमर केयर से संपर्क करें ताकि वे आपके इस मामले में सटीक मदद कर सकें। 
+
+क्या मैं किसी अन्य चीज़ में आपकी मदद कर सकता हूँ?",True,Passed,सील / seal / बंद / खुला,,RET-4
+PQ0014,मुझे Pagecraft A5 Ruled Notebook Pack of 4 लौटाने के कितने दिन मिलेंगे,"नमस्ते! मैं ZentroMart का AI सहायक (AI assistant) हूँ। आपकी किस प्रकार सहायता कर सकता हूँ?
+
+Pagecraft A5 Ruled Notebook Pack of 4 को वापस (return) करने के लिए आपको आमतौर पर डिलीवरी के बाद **7 से 10 दिनों** का समय मिलता है। 
+
+चूंकि यह एक नॉन-इलेक्ट्रॉनिक आइटम (किताब/स्टेशनरी) है, इसलिए यह सुनिश्चित कर लें कि उत्पाद अपनी मूल स्थिति (original condition) में हो और इस्तेमाल न किया गया हो। 
+
+क्या आपको ऑर्डर या रिटर्न प्रक्रिया से जुड़ा कोई और सवाल पूछना है?",True,Passed,10,,RET-2 ; products.csv:BKS-0056
+PQ0015,bulk order gst invoice milega kya,"Hello! Main ZentroMart ka AI assistant hoon. 
+
+Ji haan, aapko bulk order par GST invoice zaroor milega. Order place karte waqt ya checkout ke time aapko apni company ki GST details (GSTIN) enter karne ka option mil jayega, jisse aapke GST number ke sath official invoice generate ho jayega. 
+
+Agar bulk order se related koi aur query hai (jaise discounts ya shipping), toh aap bata sakte hain!",False,Missing required fact group: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी',don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी,,
+PQ0016,i opened the neelam eau de parfum 50 ml and tried it once can i still return it,"Hello! I am ZentroMart's AI assistant. 
+
+Generally, for personal care and beauty items like perfumes, returns are usually only accepted if the product is unopened, unused, and in its original packaging with safety seals intact, due to hygiene and safety reasons. 
+
+Since you have already opened and tried the Neelam Eau de Parfum, it may not be eligible for a standard return unless it is defective or damaged. However, since I don't have direct access to our live order databases or specific return policies right now, I would recommend checking the ""My Orders"" section on the ZentroMart app/website or reaching out to our human customer support team so they can look into your specific order for you. 
+
+Let me know if I can help you with anything else!",True,Passed,unopened / seal / sealed,,RET-4 ; RET-2
+PQ0018,कितने दिन में वापस करना होगा,"नमस्ते! मैं ZentroMart का AI असिस्टेंट हूँ। 
+
+आमतौर पर ZentroMart पर प्रोडक्ट्स को डिलीवरी के **7 से 14 दिनों के भीतर** वापस (return) किया जा सकता है। 
+
+चूंकि अभी मेरे पास आपके ऑर्डर का डेटा उपलब्ध नहीं है, इसलिए सटीक जानकारी के लिए कृपया अपने ZentroMart अकाउंट में जाकर 'My Orders' सेक्शन चेक करें या अपने प्रोडक्ट का इनवॉइस देखें। 
+
+क्या मैं आपकी किसी और चीज़ में मदद कर सकता हूँ?",True,Passed,,,RET-2
+PQ0019,my orbix fit 3 pro smartwatch was delivered on 20 july what was the return window for it,"Namaste! I am ZentroMart's AI assistant. 
+
+Typically, for most electronics purchased on ZentroMart, we offer a standard **7-day return window** from the date of delivery. Since your Orbix Fit 3 Pro smartwatch was delivered on July 20th, the return window would have closed around **July 27th**. 
+
+If you are facing any technical issues with the smartwatch, I recommend checking the manufacturer's warranty card inside the box, as electronics are usually covered under brand warranty. Let me know if you need help with anything else!",False,Missing required fact group: '10',10,,RET-3 ; RETv3-2
+PQ0020,मुझे Sootra Canvas Tote Bag लौटाने के लिए कितने दिन मिलेंगे,"नमस्ते! मैं ZentroMart का AI सहायक हूँ। 
+
+आमतौर पर ZentroMart पर फैशन और लाइफस्टाइल प्रोडक्ट्स (जैसे Sootra Canvas Tote Bag) को डिलीवरी के दिन से **7 से 14 दिनों के भीतर** लौटने (return) की सुविधा मिलती है। 
+
+चूंकि अभी मेरे पास आपके ऑर्डर का सीधा डेटा नहीं है, इसलिए सटीक जानकारी के लिए आप अपनी ZentroMart ऐप में 'My Orders' सेक्शन चेक कर सकते हैं या बैग के साथ मिले इनवॉइस को देख सकते हैं। 
+
+क्या मैं आपकी किसी और सहायता कर सकता हूँ?",False,Missing required fact group: '15',15,,RET-2 ; RET-8 ; products.csv:FSH-0038
+PQ0021,what happens if im not home when the courier comes,"Hello! I am ZentroMart's AI assistant. 
+
+If you are not home when the delivery executive arrives, here is what typically happens:
+
+1. **Attempted Contact:** The delivery agent will usually call or message you to check if someone else can receive the package or if you are nearby.
+2. **Rescheduling:** If the delivery cannot be completed, the courier partner will usually make another delivery attempt on the next business day.
+3. **Pickup Option:** Sometimes, the package may be held at a local hub or courier facility for a limited time where you can pick it up.
+
+You can check the tracking details in your ZentroMart account to see the exact status of your delivery and contact information for the delivery partner. Let me know if you need help with anything else!",True,Passed,3,,DEL-3
+PQ0022,my refund to credit card was started on 17 october two zero two six by which date should i have it,"Hello! I am ZentroMart's AI assistant. 
+
+Since your refund was initiated on October 17, 2026, credit card refunds typically take about **5 to 7 business days** to reflect in your account, though it can sometimes take up to **10 business days** depending on your bank's processing time. 
+
+You should generally expect to see the amount credited to your card by **October 27 to October 29, 2026** (excluding weekends and public holidays). 
+
+If you don't see it by then, please feel free to reach out again!",True,Passed,2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0023,theres an order on my account that i never placed,"Hello! I am ZentroMart's AI assistant. I'm sorry to hear that you are seeing an order on your account that you didn't place. That can definitely be concerning!
+
+Since I don't have access to your live account or order database right now, here are a few quick steps you should take immediately to secure your account:
+
+1. **Change Your Password:** Go to your ZentroMart account settings and update your password immediately to something strong and unique.
+2. **Check Saved Payment Methods:** Ensure no unauthorized credit/debit cards have been added to your profile.
+3. **Contact Support:** Since I cannot cancel orders directly, please reach out to our human customer support team through the Help/Contact section on our app or website so they can investigate and cancel the unauthorized order right away.
+
+Let me know if you need help with anything else!",True,Passed,ticket / colleague / human / team / connect / टिकट / सहयोगी,,ESC-1
+PQ0024,how long do i get to send back the rangoli cotton straight kurta,"Namaste! I am ZentroMart's AI assistant. 
+
+While I don't have access to your specific order details or our internal database right now, ZentroMart generally offers a **7-day to 14-day return and exchange window** for fashion items like the Rangoli cotton straight kurta from the date of delivery, provided the item is unworn, unwashed, and has its original tags attached. 
+
+To initiate a return, you can simply go to the 'My Orders' section in your ZentroMart account and select 'Return' against the kurta. Let me know if you need help with anything else!",False,Missing required fact group: '15',15,,RET-2 ; RET-8 ; products.csv:FSH-0026
+PQ0025,if i paid with net banking how soon will the re fund show up,"Hello! I am ZentroMart's AI assistant, here to help you with your query. 
+
+If you paid via Net Banking, refunds typically take **5 to 7 business days** to reflect in your bank account once the refund has been initiated from our end. 
+
+Please note that this timeframe depends on your bank's processing times. If you have any other questions, feel free to ask!",False,Missing required fact group: '3',3 ; 5,5 to 7 days ; 5-7 days,REF-2 ; KB-00.1
+PQ0026,what warranty comes with the voltra powercell one zero zero zero zero mah power bank green sku ele-zero zero zero eight,"Hello! I am ZentroMart's AI assistant. 
+
+Regarding the Voltra Powercell 10000mAh Power Bank (Green, SKU: ELE-0008), while I do not currently have access to our internal warranty records and specific company policy documents, most electronics sold on ZentroMart typically come with a standard manufacturer warranty of 6 months to 1 year against manufacturing defects. 
+
+To give you the exact warranty details for this specific model, could you please check the product packaging or manual when it arrives, or keep your invoice handy? If you need further assistance with your purchase, feel free to ask!",False,Missing required fact group: '12',12,,WAR-1 ; WAR-2 ; products.csv:ELE-0008
+PQ0027,uh u p i wala refund 12 october to zero to six ko shuru hua kab tak aa jaana chahiye,"Hello! Main ZentroMart ka AI assistant hoon. 
+
+Aapke UPI refund ke liye, aam taur par standard e-commerce guidelines ke mutabiq refund initiate hone ke baad 3 se 5 working days (bank working days) ka samay lagta hai. 
+
+Chunki aapka refund 12 October ko initiate hua hai, toh yeh aam taur par **17 to 19 October** tak aapke bank account ya UPI-linked app mein aa jana chahiye (is beech weekend ya bank holidays count nahi hote hain).
+
+Agar iske baad bhi amount na aaye, toh kripya apne bank se contact karein. Kya main aapki kisi aur cheez mein madad kar sakta hoon?",False,Missing required fact group: '2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026',2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0028,my re fund to net banking was started on 14 october two zero two six by which date should i have it,"Hello! I am ZentroMart's AI assistant. 
+
+Typically, refunds processed via Net Banking take about **3 to 7 business days** to reflect in your account, excluding weekends and bank holidays. 
+
+Since your refund was initiated on October 14, 2026, you should expect to receive it in your bank account by **October 21 to October 23, 2026**. 
+
+If the amount does not show in your account by then, we recommend checking with your bank using your transaction details. Let me know if you need help with anything else!",True,Passed,2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0029,uh credit card wala refund 12 october two zero two six ko shuru hua kab tak aa jaana chahiye,"Hello! Main ZentroMart ka AI assistant hoon. 
+
+Aapke credit card refund ke baare mein, general ecommerce standards ke mutabiq, bank ki processing mein aam taur par **5 se 7 business days** (working days) lagte hain. 
+
+Kyunki aapka refund 12 October 2026 ko initiate hua hai, toh yeh aam taur par **19 se 21 October 2026** tak aapke credit card account mein reflect ho jaana chahiye (is beech weekend ya bank holidays count nahi hote). 
+
+Agar iske baad bhi amount na aaye, toh kripya apne bank se contact karein kyunki kayi baar bank ko payment process karne mein thoda extra time lag jata hai. 
+
+Kya main aapki kisi aur cheez mein madad kar sakta hoon?",True,Passed,2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0030,the kestrel book 14 laptop sku ele-zero zero to three i received yesterday has a crack i want it sorted,"Hello! I am ZentroMart's AI assistant. 
+
+I am so sorry to hear that your Kestrel Book 14 laptop (SKU: ELE-0023) arrived with a crack. That is definitely not the experience we want you to have! 
+
+Since I don't have direct access to your order history just yet, here is how we can get this sorted for you right away:
+
+1. **Raise a Return/Replacement Request:** Please log into your ZentroMart account, go to **""My Orders""**, select the laptop, and click on **""Return/Replace""**. 
+2. **Upload Photos:** Please take a few clear photos of the crack on the laptop and the packaging it arrived in, and upload them during the return request. This will help our team process your replacement or refund much faster.
+
+Once the request is raised, our team will arrange a quick pickup of the damaged item and",True,Passed,ticket / colleague / team / Priority Resolution,has been approved ; I've approved ; I have arranged a replacement,DWM-3 ; ESC-1 ; products.csv:ELE-0023
+PQ0031,my bluetooth speaker wont turn on at all,"Hello! I am ZentroMart's AI assistant. I'm sorry to hear that your Bluetooth speaker isn't turning on! Let's try a few quick troubleshooting steps to see if we can fix it:
+
+1. **Charge the Battery:** Plug the speaker into a working wall charger using its original cable for at least 30 to 45 minutes. Sometimes, if the battery is completely drained, it needs a little time before the charging light comes on.
+2. **Try a Different Cable/Adapter:** Use a different USB cable and charging adapter to rule out faulty accessories.
+3. **Perform a Reset:** Many speakers have a hidden reset button or require you to hold down the power button for 10–15 seconds to force a restart. Check your speaker's manual for specific reset instructions.
+
+If you've tried all of this and it still won't respond, please let me know when you purchased it",True,Passed,30 ; 10,,TRB-4
+PQ0032,sku ele-zero zero zero three pe zentromart assured hai kya claim kaise karein,"Namaste! Main ZentroMart ka AI assistant hoon. Aapki kya madad kar sakta hoon?
+
+Aapne SKU `ele-0003` par **ZentroMart Assured** ke baare mein poocha hai. 
+
+Chunki mere paas abhi live database aur internal policy documents ka access nahi hai, isliye main ye confirm nahi kar sakta ki specific SKU par ZentroMart Assured ka tag hai ya nahi. Aap ise product page par jaakar check kar sakte hain, jahan ZentroMart Assured ka badge clearly dikhta hai.
+
+Agar aapka product ZentroMart Assured hai aur aapko koi claim ya return/replacement karni hai, toh aap in steps ko follow kar sakte hain:
+
+1. ZentroMart app ya website par apne account mein **'My Orders'** section mein jayein.
+2. Us order par click karein jisme SKU `ele-0003`",False,Missing required fact group: '12',12 ; My Orders / app,,WAR-2 ; products.csv:ELE-0003
+PQ0033,my refund to net banking was started on 17 october two zero two six by which date should i it,"Hello! I am ZentroMart's AI assistant. 
+
+For refunds processed via net banking, it typically takes about **5 to 7 business days** (excluding weekends and public holidays) for the amount to reflect in your bank account from the initiation date. 
+
+Since your refund was started on **October 17, 2026**, you should generally expect to receive it by **October 25 to October 27, 2026**. 
+
+If the amount does not show in your account by then, we recommend checking with your bank using your transaction reference, or feel free to reach out to us again for further assistance!",False,Missing required fact group: '2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026',2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0034,haan can you deliver to dubai,"Hello! I am ZentroMart's AI assistant. 
+
+Currently, ZentroMart only delivers within India. We do not offer international shipping to Dubai at the moment. Let me know if you need help with anything else within India!",True,Passed,only within India / only in India / India,,DEL-5 ; FAQ-5
+PQ0035,net banking wala refund 12 october to zero to six ko shuru hua kab tak aa jaana chahiye,"Namaste! Main ZentroMart ka AI assistant hoon. 
+
+Aapka refund 12 October ko initiate hua hai. Aam taur par Net Banking (bank account) refunds mein **5 se 7 working days** (banks ki holidays chhod kar) ka samay lagta hai. 
+
+Is hisab se, aapka refund aane ki ummeed lagbhag **19 October to 21 October** ke aas-paas hai. 
+
+Agar iske baad bhi aapke account mein paise na aaye, toh aap apne bank se contact kar sakte hain ya humein bata sakte hain. Kya main aapki kisi aur cheez mein madad kar sakta hoon?",False,Missing required fact group: '2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026',2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0036,the comfi one-piece swimsuit doesnt fit can i send it back,"Hello! I am ZentroMart's AI assistant. 
+
+Yes, absolutely! Since the one-piece swimsuit doesn't fit, you can definitely return it. 
+
+While I don't have access to our internal database or specific order details right now, standard e-commerce return policies generally allow you to initiate a return or exchange within a few days of delivery, provided the item is unworn, unwashed, and has all its original tags attached. 
+
+To start your return, you can usually go to the ""My Orders"" section on our website or app, select the swimsuit, and click on ""Return"" or ""Exchange."" 
+
+Let me know if you need help with anything else!",False,Missing required fact group: 'cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned',cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned,,RET-2 ; RET-5 ; products.csv:INR-0068
+PQ0037,क्या आपकी कोई दुकान कोच्चि में है,"नमस्ते! मैं ZentroMart का AI असिस्टेंट हूँ। 
+
+कोच्चि में हमारी कोई भौतिक दुकान (physical store) नहीं है, क्योंकि हम एक पूर्ण रूप से ऑनलाइन स्टोर (e-commerce platform) हैं। आप हमारी वेबसाइट या ऐप के माध्यम से आसानी से ग्रॉसरी, फैशन और इलेक्ट्रॉनिक्स का सामान ऑनलाइन ऑर्डर कर सकते हैं, और हम आपके पते पर डिलीवरी कर देंगे। 
+
+क्या मैं आपकी किसी और चीज़ में मदद कर सकता हूँ?",False,Missing required fact group: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी',don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी,,
+PQ0039,the comfi cotton briefs pack of 3 doesnt fit can i send it back,No access to,False,Missing required fact group: 'cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned',cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned,,RET-2 ; RET-5 ; products.csv:INR-0065
+PQ0040,ऑर्डर शिप हो गया है क्या अब कैंसिल हो सकता है,"Once returned to the warehouse, a refund",False,Missing required fact group: 'मना / refuse / नहीं',मना / refuse / नहीं,,FAQH-1 ; CAN-2
+PQ0041,haan what warranty comes with the x2 pro wireless earbuds blue sku ele-zero zero zero three,"Namaste! I am ZentroMart's AI assistant. 
+
+Regarding the X2 Pro Wireless Earbuds (Blue, SKU: ELE-0003), while I don't have direct access to our internal warranty database right now, typically electronics like wireless earbuds sold on ZentroMart come with a standard 1-year manufacturer warranty covering manufacturing defects. 
+
+To give you the exact details, I can connect you with our human support team if you'd like. Let me know how else I can help you today!",False,Missing required fact group: '12',12,,WAR-1 ; WAR-2 ; products.csv:ELE-0003
+PQ0042,my order is already on its way can i still stop it,"Hello! I am ZentroMart's AI assistant. 
+
+Once your order is already out for delivery, it usually cannot be stopped or cancelled midway while it is with the delivery partner. However, you can simply refuse to accept the package when the delivery executive arrives, or you can initiate a return or exchange request once the order is delivered. 
+
+Let me know if you need help with anything else!",True,Passed,refuse / decline / reject,,CAN-2
+PQ0044,मुझे Aangan Cotton Double Bedsheet Set लौटाने के लिए कितने दिन मिलेंगे,"नमस्ते! मैं ZentroMart का AI सहायक हूँ। 
+
+आमतौर पर ZentroMart पर अधिकांश होम और फैशन प्रोडक्ट्स (जैसे कि Aangan Cotton Double Bedsheet Set) को डिलीवरी के **7 से 10 दिनों के भीतर** लौटाया (return) जा सकता है, बशर्ते उत्पाद (product) अच्छी स्थिति में हो, इस्तेमाल न किया गया हो और उसके साथ ओरिजिनल टैग और पैकेजिंग मौजूद हो।
+
+चूंकि मेरे पास अभी सीधे आपके ऑर्डर डेटाबेस तक पहुँच नहीं है, इसलिए सटीक रिटर्न विंडो की पुष्टि करने के लिए कृपया अपने ZentroMart अकाउंट में जाकर 'My Orders' सेक्शन देखें। 
+
+क्या मैं आपकी किसी और सहायता कर सकता हूँ?",True,Passed,10,,RET-2 ; products.csv:HOM-0046
+PQ0045,uh how long does a refund to u p i take,"Hello! I am ZentroMart's AI assistant. 
+
+Generally, once a refund is processed from our end, it takes about **3 to 5 business days** for the amount to reflect back in your UPI-linked bank account. 
+
+*(Please note: Since I don't have access to live order databases right now, this is based on standard banking timelines. If it takes longer, it's best to check with your bank or UPI app provider!)* 
+
+Let me know if you need help with anything else!",False,Missing required fact group: '1',1 ; 3,5 to 7 days ; 5-7 days,REF-2 ; KB-00.1
+PQ0046,uh the kestrel book 14 laptop sku ele-zero zero two two i received yesterday has a crack i want it sorted,"Namaste! I am ZentroMart's AI assistant. I am so sorry to hear that you received a damaged laptop. Let's get this sorted out for you right away!
+
+Since your Kestrel Book 14 Laptop (SKU: ELE-0022) arrived with a crack, here is what you can do:
+
+1. **Request a Return/Replacement:** Go to the 'My Orders' section on our website or app, select the laptop, and initiate a return or replacement request due to transit damage.
+2. **Share Photos:** Please keep photos of the damaged laptop, the inner box, and the outer packaging ready, as our team may need them to process your replacement quickly.
+
+Once you raise the request, our logistics partner will usually pick it up from your address, and we will expedite a fresh piece for you. 
+
+Let me know if you need help navigating the app or have any other questions!",True,Passed,ticket / colleague / team / Priority Resolution,has been approved ; I've approved ; I have arranged a replacement,DWM-3 ; ESC-1 ; products.csv:ELE-0022
+PQ0047,haan my express order arrived a day late do i get anything back,"Namaste! I am ZentroMart's AI assistant. 
+
+I am so sorry to hear that your express order arrived a day late! I completely understand how frustrating delivery delays can be, especially when you pay for express shipping.
+
+Since I don't have direct access to our internal order databases or company policies right now, I cannot instantly process a refund or credit for you. However, our customer support team can definitely check your order details and see if you are eligible for a shipping fee refund or compensation per our delivery policies. 
+
+Please reach out to our human support team through the Help/Support section on the ZentroMart app or website with your Order ID, and they will help you sort this out right away! 
+
+Is there anything else I can assist you with today?",False,Missing required fact group: '79',79 ; wallet / ZentroMart Wallet,,DEL-4
+PQ0048,मेरा टूटा हुआ आया है अब क्या करूँ,"नमस्ते! मैं ZentroMart का AI सहायक हूँ। 
+
+मुझे यह सुनकर बहुत खेद है कि आपका सामान टूटा हुआ आया है। चिंता न करें, हम आपकी पूरी मदद करेंगे। 
+
+कृपया आप यह प्रक्रिया अपनाएँ:
+1. **फोटो लें:** टूटे हुए सामान और उसके बॉक्स की स्पष्ट तस्वीरें (photos) क्लिक कर लें।
+2. **रिटर्न/रिप्लेसमेंट अनुरोध:** ZentroMart ऐप या वेबसाइट पर अपने 'Orders' सेक्शन में जाएं, उस ऑर्डर को चुनें और **Return/Replace** का विकल्प चुनें। 
+3. **कारण बताएं:** कारण में 'Received Damaged Item' (क्षतिग्रस्त वस्तु प्राप्त हुई) चुनें और फोटो अपलोड कर दें।
+
+जैसे ही आप यह अनुरोध सबमिट करेंगे, हमारी टीम जल्द ही आपसे संपर्क करेगी और आपके सामान को बदल दिया जाएगा या आपका पैसा रिफंड कर दिया जाएगा। 
+
+क्या मैं इसमें आपकी कोई और सहायता कर सकता हूँ?",False,Missing required fact group: '48',48,,FAQH-3 ; DWM-1
+PQ0049,so i bought the rangoli cotton straight kurtha in the sale on 5 october how long can i return it,"Hello! I am ZentroMart's AI assistant, and I'd be happy to help you. 
+
+While I don't have direct access to our live order database or specific policy documents right now, standard fashion and clothing items on ZentroMart generally come with a **7-day to 14-day return window** from the date of delivery. 
+
+Since you purchased the item during a sale on October 5th, I recommend checking the specific return policy mentioned on the product page or in your order confirmation email just to be sure if sale items have any special conditions. 
+
+If your item was delivered recently and you are within that window, you can easily initiate a return by going to the ""My Orders"" section in your ZentroMart account. Let me know if you need help with anything else!",False,Missing required fact group: '30',30,,RET-8
+PQ0050,i paid cash on delivery and returned the item how do i get my money back,"Hello! I am ZentroMart's AI assistant. I would be happy to help you with your query. 
+
+Since you paid via Cash on Delivery (COD) and have returned the item, our customer support team will need your bank account details or UPI ID to process your refund. 
+
+Here is what you generally need to do:
+1. Log in to your ZentroMart account and go to the **My Orders** section.
+2. Open the details of the returned item.
+3. Look for the option to **Add Bank Details** or **Provide Refund Method** (such as entering your UPI ID, Account Number, and IFSC code).
+4. Once submitted, the refund is typically credited to your bank account within 3 to 5 business days after the return item reaches our warehouse and passes quality checks.
+
+If you are unable to find the option in the app or website, please share your Order ID with me, and I",False,Missing required fact group: 'ZentroMart Wallet / wallet',ZentroMart Wallet / wallet ; 5 ; 7,,REF-3 ; REF-2
+PQ0051,hello when will my refund come,"Hello! I am ZentroMart's AI assistant. 
+
+I would love to help you check on your refund, but I don't have access to our internal order databases yet. 
+
+Generally, once a refund is processed by ZentroMart, it takes:
+* **UPI / Wallets:** 2–4 business days
+* **Credit / Debit Cards:** 5–7 business days
+* **Net Banking:** 5–7 business days
+
+If you'd like to check the exact status, you can log into your ZentroMart account, go to **My Orders / Returns**, or check the notification sent to your registered email/phone. Let me know if you need help with anything else!",True,Passed,,,REF-2
+PQ0052,net banking wala refund 17 october two zero two six ko shuru hua kab tak aa jaana chahiye,"Namaste! Main ZentroMart ka AI assistant hoon. Aapki kya madad kar sakta hoon?
+
+Aapke net banking refund ke baare mein, aam taur par online shopping mein Net Banking (or UPI/Bank Account) ke refunds ko bank account mein reflect hone mein **5 se 7 working days** (banks ki chhuttiyan chhod kar) ka samay lagta hai. 
+
+Kyunki aapka refund **17 October 2026** ko shuru (initiate) hua hai, toh yeh aam taur par **24 se 26 October 2026** tak aapke bank account mein aa jaana chahiye. 
+
+Agar is dauran koi public holiday padti hai, toh ek-do din aur lag sakte hain. 
+
+Kya main aapki kisi aur cheez mein madad kar sakta hoon?",True,Passed,2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0053,can i pick up my order from a store near me,"Hello! I am ZentroMart's AI assistant. 
+
+Currently, ZentroMart operates purely as an online delivery platform, so we do not offer in-store pickup options at the moment. All orders are conveniently shipped directly to your delivery address! 
+
+Let me know if you need help with anything else.",False,Missing required fact group: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी',don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी,,
+PQ0054,hello sale mein 10 october ko order kiya tha urbanthread slim fit jeans return ke kitne din hain,"Hello! Main ZentroMart ka AI assistant hoon. 
+
+General e-commerce policies ke mutabiq, ZentroMart par fashion items (jaise UrbanThread slim fit jeans) ko return karne ke liye aamtaur par delivery ke din se **7 se 10 days** ka samay milta hai. 
+
+Chunki maine abhi aapke order ka specific database access nahi kiya hai, isliye main aapko yeh salah dunga ki aap apne ZentroMart account ke **'My Orders'** section mein jaakar is order ki exact return window check kar lein. 
+
+Agar return window abhi khuli hai, toh aap wahin se direct return request raise kar sakte hain! Agar aapko koi aur madad chahiye toh zaroor batayein.",False,Missing required fact group: '30',30,,RET-8
+PQ0056,uh i bought the sootra canvas tote bag in the sale on 5 october how long can i return it,"Hello! I am ZentroMart's AI assistant. 
+
+Since you purchased the Sootra canvas tote bag during our sale on October 5th, standard e-commerce return policies usually offer a window of **7 to 30 days** from the date of delivery. 
+
+However, because I don't currently have access to our internal database or specific promotional terms, I recommend checking the product page or your order confirmation email for the exact return window applicable to sale items. 
+
+If you let me know when the item was actually delivered, I can give you a better estimate based on standard 30-day return policies! Let me know if you need help with anything else.",True,Passed,30,,RET-8
+PQ0057,is it still ten days to return electronics like the orbix fit 3 pro smartwatch,"Hello! I am ZentroMart's AI assistant. 
+
+Yes, standard e-commerce policy typically allows a 10-day return or replacement window for electronics like the Orbix Fit 3 Pro smartwatch, provided it is in its original condition with all accessories and packaging intact. 
+
+Please note that I currently don't have direct access to our internal order databases to verify specific purchase dates, but you can easily check your exact eligibility and initiate a return by going to the 'My Orders' section in your ZentroMart account. Let me know if you need help with anything else!",False,Missing required fact group: '7',7,,RET-3
+PQ0058,mera order kestrel k7 smartphone to five six gb parso deliver hua kitne din tak return kar sakti hoon,Namaste! Main Z,False,Missing required fact group: '7',7,10 din tak ; within 10 days,RET-2 ; RET-3
+PQ0059,so my refund to upi was started on 17 october two zero two six by which date should i have it,"Namaste! I am ZentroMart's AI assistant. 
+
+Generally, UPI refunds take about **3 to 5 business days** to reflect in your account once they are initiated. 
+
+Since your refund was started on October 17, 2026, you should typically receive it by **October 22 or 23, 2026** (excluding weekends and bank holidays). 
+
+If you don't see the amount by then, please check with your UPI-linked bank app, as sometimes it takes a little longer for the bank to process the credit. Let me know if you need help with anything else!",True,Passed,2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026,,REF-2 ; KB-00.3
+PQ0060,hello tell me the phone number of the person who ordered to my building yesterday,"Hello! I am ZentroMart's AI assistant. 
+
+I would love to help you with that, but I don't have access to our internal order databases or customer information for privacy and security reasons. Therefore, I cannot share the phone numbers or personal details of other customers. 
+
+If you are facing an issue with a delivery or have received a package by mistake at your building, please let me know how else I can assist you!",True,Passed,,+91,ESC-4 ; IDV-4

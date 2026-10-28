@@ -1,0 +1,228 @@
+Step 2 — Failure Analysis (17 failures out of 52 questions)
+======================================================================
+
+Question ID: PQ0002
+Original Question: SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?
+ASR Input: so sku ele-zero zero one to pe zentromart assured hai kya claim kaise karein
+Gold Evidence: WAR-2 ; products.csv:ELE-0012
+Retrieved Chunks: ['WAR-2', 'WAR-1', 'MKS-3', 'RET-1', 'DWM-4']
+Retrieved Sources: ['pol_warranty_assured.md', 'pol_warranty_assured.md', 'pol_marketplace_sellers.md', 'pol_returns_v4.md', 'pol_damaged_wrong_missing.md']
+Agent Reply: I don't have information on that.
+Must Include: 12 ; My Orders / app
+Must Not Include: nan
+Why It Failed: Missing required fact group: '12'
+----------------------------------------------------------------------
+
+Question ID: PQ0008
+Original Question: credit card wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?
+ASR Input: so credit card wala refund 17 october two zero two six ko shuru hua kab tak aa jaana chahiye
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-1', 'REF-6', 'RET-7', 'REF-3']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md', 'pol_refunds.md']
+Agent Reply: Credit or debit card ke refund ke liye time 5 to 7 business days lagte hain, jo ki refund initiate hone ke din se count hote hain.
+Must Include: 2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0016
+Original Question: I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?
+ASR Input: i opened the neelam eau de parfum 50 ml and tried it once can i still return it
+Gold Evidence: RET-4 ; RET-2
+Retrieved Chunks: ['RET-4', 'RET-2', 'CAN-2', 'RET-8', 'RET-1']
+Retrieved Sources: ['pol_returns_v4.md', 'pol_returns_v4.md', 'pol_cancellations.md', 'pol_returns_v4.md', 'pol_returns_v4.md']
+Agent Reply: I don't have information on that.
+Must Include: unopened / seal / sealed
+Must Not Include: nan
+Why It Failed: Missing required fact group: 'unopened / seal / sealed'
+----------------------------------------------------------------------
+
+Question ID: PQ0022
+Original Question: My refund to credit card was started on 17 October 2026. By which date should I have it?
+ASR Input: my refund to credit card was started on 17 october two zero two six by which date should i have it
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-6', 'REF-1', 'REF-2', 'RET-7', 'REF-3']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md', 'pol_refunds.md']
+Agent Reply: Calculate business days:
+* Refund initiated: Saturday
+Must Include: 2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0023
+Original Question: There's an order on my account that I never placed.
+ASR Input: theres an order on my account that i never placed
+Gold Evidence: ESC-1
+Retrieved Chunks: ['CAN-1', 'PAY-3', 'CAN-2', 'RET-5', 'MKS-1']
+Retrieved Sources: ['pol_cancellations.md', 'pol_payments_cod.md', 'pol_cancellations.md', 'pol_returns_v4.md', 'pol_marketplace_sellers.md']
+Agent Reply: I don't have information on that.
+Must Include: ticket / colleague / human / team / connect / टिकट / सहयोगी
+Must Not Include: nan
+Why It Failed: Missing required fact group: 'ticket / colleague / human / team / connect / टिकट / सहयोगी'
+----------------------------------------------------------------------
+
+Question ID: PQ0024
+Original Question: How long do I get to send back the Rangoli Cotton Straight Kurta?
+ASR Input: how long do i get to send back the rangoli cotton straight kurta
+Gold Evidence: RET-2 ; RET-8 ; products.csv:FSH-0026
+Retrieved Chunks: ['RET-8', 'RET-2', 'MKS-2', 'CAN-2', 'RET-6']
+Retrieved Sources: ['pol_returns_v4.md', 'pol_returns_v4.md', 'pol_marketplace_sellers.md', 'pol_cancellations.md', 'pol_returns_v4.md']
+Agent Reply: I don't have information on that.
+Must Include: 15
+Must Not Include: nan
+Why It Failed: Missing required fact group: '15'
+----------------------------------------------------------------------
+
+Question ID: PQ0026
+Original Question: What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?
+ASR Input: what warranty comes with the voltra powercell one zero zero zero zero mah power bank green sku ele-zero zero zero eight
+Gold Evidence: WAR-1 ; WAR-2 ; products.csv:ELE-0008
+Retrieved Chunks: ['WAR-1', 'MKS-3', 'WAR-2', 'WAR-3', 'RET-1']
+Retrieved Sources: ['pol_warranty_assured.md', 'pol_marketplace_sellers.md', 'pol_warranty_assured.md', 'pol_warranty_assured.md', 'pol_returns_v4.md']
+Agent Reply: I don't have information on that.
+Must Include: 12
+Must Not Include: nan
+Why It Failed: Missing required fact group: '12'
+----------------------------------------------------------------------
+
+Question ID: PQ0027
+Original Question: UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?
+ASR Input: uh u p i wala refund 12 october to zero to six ko shuru hua kab tak aa jaana chahiye
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-1', 'RET-7', 'REF-3', 'REF-6']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md', 'pol_refunds.md', 'pol_refunds.md']
+Agent Reply: UPI refund initiation se 1 to 3 business days mein aa jaana chahiye.
+Must Include: 2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0028
+Original Question: My refund to net banking was started on 14 October 2026. By which date should I have it?
+ASR Input: my re fund to net banking was started on 14 october two zero two six by which date should i have it
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-6', 'REF-3', 'REF-1', 'RET-7']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md']
+Agent Reply: Based on the refunds policy, refunds to net banking take 3 to 5 business days after initiation, and timelines are counted in business days (Monday-Saturday, excluding warehouse holidays). 
+
+Since your refund was initiated on Tuesday, 14 October 2026:
+- 1 business day: 15 October (Wednesday)
+- 2 business days: 16 October (Thursday)
+- 3 business days: 17 October (Friday)
+- 4 business days: 19 October (Saturday)
+- 5 business days: 20 October (Monday)
+
+You should have your refund by **20 October 2026**.
+Must Include: 2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0029
+Original Question: credit card wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?
+ASR Input: uh credit card wala refund 12 october two zero two six ko shuru hua kab tak aa jaana chahiye
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-1', 'REF-6', 'RET-7', 'REF-3']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md', 'pol_refunds.md']
+Agent Reply: Credit or debit card ke refunds initiate hone ke baad 5 to 7 business days mein aate hain. Aapke refund ko shuru hue 12 October 2026 ho chuka hai, aur business days mein Monday se Saturday shamil hote hain (warehouse holidays ko chhod kar).
+Must Include: 2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0030
+Original Question: The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.
+ASR Input: the kestrel book 14 laptop sku ele-zero zero to three i received yesterday has a crack i want it sorted
+Gold Evidence: DWM-3 ; ESC-1 ; products.csv:ELE-0023
+Retrieved Chunks: ['DWM-1', 'DWM-4', 'DWM-2', 'DWM-5', 'WAR-1']
+Retrieved Sources: ['pol_damaged_wrong_missing.md', 'pol_damaged_wrong_missing.md', 'pol_damaged_wrong_missing.md', 'pol_damaged_wrong_missing.md', 'pol_warranty_assured.md']
+Agent Reply: To report a damaged item, you must report it within **48 hours of delivery**, along with photos of the item and the packaging. 
+
+After verification, you will receive a free replacement or a full refund, including delivery fees, with no reverse pickup fee applied.
+Must Include: ticket / colleague / team / Priority Resolution
+Must Not Include: has been approved ; I've approved ; I have arranged a replacement
+Why It Failed: Missing required fact group: 'ticket / colleague / team / Priority Resolution'
+----------------------------------------------------------------------
+
+Question ID: PQ0033
+Original Question: My refund to net banking was started on 17 October 2026. By which date should I have it?
+ASR Input: my refund to net banking was started on 17 october two zero two six by which date should i it
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-6', 'REF-3', 'REF-1', 'RET-7']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md']
+Agent Reply: Based on ZentroMart's refund policy, refunds to net banking take 3 to 5 business days to reach you after initiation. 
+
+Counting business days (Monday-Saturday, excluding warehouse holidays) from 17 October 2026:
+- Day 1: 19 October 2026 (assuming 18 October is Sunday)
+- Day 3: 21 October 2026
+- Day 5: 23 October 2026
+
+You should expect to receive your refund between **21 October 2026 and 23 October 2026**.
+Must Include: 2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0035
+Original Question: net banking wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?
+ASR Input: net banking wala refund 12 october to zero to six ko shuru hua kab tak aa jaana chahiye
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-3', 'REF-6', 'REF-1', 'RET-7']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md']
+Agent Reply: Net banking se kiye gaye refund ke liye, initiation ke baad **3 se 5 business days** lagte hain aapke paas aane mein.
+Must Include: 2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0041
+Original Question: What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?
+ASR Input: haan what warranty comes with the x2 pro wireless earbuds blue sku ele-zero zero zero three
+Gold Evidence: WAR-1 ; WAR-2 ; products.csv:ELE-0003
+Retrieved Chunks: ['WAR-2', 'WAR-1', 'MKS-3', 'WAR-3', 'DWM-4']
+Retrieved Sources: ['pol_warranty_assured.md', 'pol_warranty_assured.md', 'pol_marketplace_sellers.md', 'pol_warranty_assured.md', 'pol_damaged_wrong_missing.md']
+Agent Reply: I don't have information on that.
+Must Include: 12
+Must Not Include: nan
+Why It Failed: Missing required fact group: '12'
+----------------------------------------------------------------------
+
+Question ID: PQ0046
+Original Question: The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.
+ASR Input: uh the kestrel book 14 laptop sku ele-zero zero two two i received yesterday has a crack i want it sorted
+Gold Evidence: DWM-3 ; ESC-1 ; products.csv:ELE-0022
+Retrieved Chunks: ['DWM-1', 'DWM-2', 'DWM-4', 'WAR-2', 'DWM-5']
+Retrieved Sources: ['pol_damaged_wrong_missing.md', 'pol_damaged_wrong_missing.md', 'pol_damaged_wrong_missing.md', 'pol_warranty_assured.md', 'pol_damaged_wrong_missing.md']
+Agent Reply: You need to report the damaged item within **48 hours of delivery**, along with photos of the item and the packaging. 
+
+Once verified, you will receive a free replacement or a full refund, including delivery fees, with no reverse pickup fee applied.
+Must Include: ticket / colleague / team / Priority Resolution
+Must Not Include: has been approved ; I've approved ; I have arranged a replacement
+Why It Failed: Missing required fact group: 'ticket / colleague / team / Priority Resolution'
+----------------------------------------------------------------------
+
+Question ID: PQ0052
+Original Question: net banking wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?
+ASR Input: net banking wala refund 17 october two zero two six ko shuru hua kab tak aa jaana chahiye
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-6', 'REF-3', 'REF-1', 'RET-7']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md']
+Agent Reply: Net banking ke refund ke liye timeline 3 se 5 business days hoti hai, jo ki refund initiate hone ke din se count hoti hai.
+Must Include: 2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026'
+----------------------------------------------------------------------
+
+Question ID: PQ0059
+Original Question: My refund to UPI was started on 17 October 2026. By which date should I have it?
+ASR Input: so my refund to upi was started on 17 october two zero two six by which date should i have it
+Gold Evidence: REF-2 ; KB-00.3
+Retrieved Chunks: ['REF-2', 'REF-1', 'REF-6', 'RET-7', 'REF-3']
+Retrieved Sources: ['pol_refunds.md', 'pol_refunds.md', 'pol_refunds.md', 'pol_returns_v4.md', 'pol_refunds.md']
+Agent Reply: Based on our Refunds policy
+Must Include: 2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026
+Must Not Include: nan
+Why It Failed: Missing required fact group: '2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026'
+----------------------------------------------------------------------
+

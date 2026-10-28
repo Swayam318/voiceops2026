@@ -1,0 +1,10 @@
+faiss-cpu==1.15.1
+gnani-vachana==0.8.2
+google-generativeai==0.8.4
+sentence-transformers==5.4.1
+torch==2.9.1
+pandas==2.2.3
+numpy==2.2.4
+python-dotenv==1.1.0
+requests==2.32.3
+reportlab==4.5.1

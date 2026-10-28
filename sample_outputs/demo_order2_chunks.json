@@ -1,0 +1,13 @@
+{
+  "audio_file": "demo_order2.wav",
+  "transcript": "my pin code is five six triple zero one",
+  "decision": "answer",
+  "tool_calls": [],
+  "retrieved_chunks": [
+    "DEL-5",
+    "PLS-1",
+    "CPN-1",
+    "DEL-1",
+    "IDV-2"
+  ]
+}

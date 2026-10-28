@@ -1,0 +1,11 @@
+{
+  "audio_file": "test_order_query.wav",
+  "transcript": "my order number is two six two nine five zero one five and it has not arrived yet",
+  "decision": "clarify",
+  "tool_calls": [
+    "lookup_order(order_id=26295015)"
+  ],
+  "retrieved_chunks": [
+    "IDV-2"
+  ]
+}

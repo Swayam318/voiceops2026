@@ -1,0 +1,17 @@
+
+==============================================================================
+VOICEOPS 2026 — THREE-WAY MILESTONE COMPARISON TABLE
+==============================================================================
+Milestone              | Architecture               | Correct  | Accuracy   | Delta   
+------------------------------------------------------------------------------
+Step 1 (Baseline)      | LLM Only (Gemini Flash)    | 25/52    | 48.08%     | Base    
+Step 2 (RAG)           | FAISS + Gemini Embeddings  | 35/52    | 67.31%     | +19.23% 
+Step 3 (Full Agent)    | RAG + Verified Tools + Memory | 45/52    | 86.54%     | +38.46% 
+------------------------------------------------------------------------------
+
+CONVERSATIONAL MULTI-TURN PERFORMANCE (Step 3 Full Agent):
+  - Evaluated on practice/conversations.csv: 23 full conversations (96 turns total)
+  - Turn-level Pass Rate: 92.71% (89 PASS, 7 PARTIAL, 0 FAIL)
+  - Conversation-level Perfect Passes: 16/23 conversations (69.57%)
+  - Zero policy violations or unauthorized disclosures across all evaluations
+==============================================================================

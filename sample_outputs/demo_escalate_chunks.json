@@ -1,0 +1,12 @@
+{
+  "audio_file": "demo_escalate.wav",
+  "transcript": "i am very frustrated i want to speak to a human supervisor right now",
+  "decision": "escalate",
+  "tool_calls": [
+    "create_ticket()"
+  ],
+  "retrieved_chunks": [
+    "ESC-1",
+    "ESC-3"
+  ]
+}

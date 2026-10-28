@@ -1,0 +1,11 @@
+Step 2 — RAG Evaluation Score
+----------------------------------------
+Total Questions Evaluated: 52
+Correct Answers:          35
+Failed Answers:           17
+Step 2 (RAG) Accuracy:    67.31%
+Step 1 (Baseline) Acc:    48.08%
+Accuracy Gain:            +19.23%
+Embedding Model:          models/gemini-embedding-001
+Vector Store:             FAISS (IndexFlatIP, normalized cosine)
+Top Chunks Retrieved:     5

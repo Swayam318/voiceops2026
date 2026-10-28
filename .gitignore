@@ -1,0 +1,32 @@
+# Secrets and local environment files (NEVER COMMIT)
+.env
+project.env
+*.env
+
+# FAISS Vector Index and metadata (large binary, rebuilt via src/rag.py)
+kb_index/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Course prompt / internal build files
+Capstone_Project_Dataset_FTTT_2026/
+Agent_Instructions.md
+GenAI_LLM_IITG.pdf
+create_report.py
+scratch_inspect.py
+scratch/
+
+# Archives and build bundles
+*.zip
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

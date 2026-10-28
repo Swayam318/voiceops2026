@@ -1,0 +1,7 @@
+Three-Way Accuracy Comparison on practice/questions.csv
+========================================================
+Step 1 (Baseline LLM, Prompt-only):  48.08%
+Step 2 (RAG + FAISS Grounding):      67.31%
+Step 3 (Full Agent + Tools + Joins):  86.54% (45/52)
+Total Accuracy Improvement:         +38.46%
+========================================================

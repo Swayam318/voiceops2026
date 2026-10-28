@@ -1,0 +1,13 @@
+{
+  "audio_file": "test_policy_query.wav",
+  "transcript": "what is the return window for electronics and laptops",
+  "decision": "answer",
+  "tool_calls": [],
+  "retrieved_chunks": [
+    "RET-3",
+    "RET-2",
+    "RET-8",
+    "RET-1",
+    "MKS-2"
+  ]
+}
